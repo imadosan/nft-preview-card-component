@@ -1,0 +1,148 @@
+:root {
+  /* Primary */
+  --blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /* Neutral */
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --dark-line: hsl(215, 32%, 27%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--main-bg);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 38rem;
+  background-color: var(--card-bg);
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+}
+
+.img-container {
+  position: relative;
+  border-radius: 1.6rem;
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+  border-radius: inherit;
+}
+
+.img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(0, 255, 247, 0.5);
+  border-radius: inherit;
+  transition: 0.5s ease;
+}
+
+.img-container:hover .img-overlay {
+  opacity: 1;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.primary-heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-top: 1rem;
+}
+
+.primary-heading:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  color: var(--blue);
+  margin: 1rem 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  border-bottom: 1px solid var(--dark-line);
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+}
+
+.info span {
+  padding-right: 1rem;
+}
+
+.coin {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.time {
+  color: var(--blue);
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+
+.creator img {
+  width: 3rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.creator p {
+  font-size: 1.6rem;
+  color: var(--blue);
+  padding-left: 1.5rem;
+}
+
+.creator p span {
+  color: #fff;
+}
+
+.creator p span:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
